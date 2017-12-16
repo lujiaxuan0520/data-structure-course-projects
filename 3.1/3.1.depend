@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1513071144 source:e:\ctemp\project\c++ practice\3.1\main.cpp
+	<iostream>
+	"SeqList.h"
+
+1513071266 e:\ctemp\project\c++ practice\3.1\seqlist.h
+
