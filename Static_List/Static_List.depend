@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1513522892 source:d:\document and settings2\administrator\desktop\chapter3\static_list\main.cpp
+	<iostream>
+	"Node.h"
+	"StaList.h"
+
+1513523140 d:\document and settings2\administrator\desktop\chapter3\static_list\node.h
+	"StaList.h"
+
+1513523183 d:\document and settings2\administrator\desktop\chapter3\static_list\stalist.h
+	"Node.h"
+
