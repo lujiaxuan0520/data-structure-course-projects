@@ -1,6 +1,7 @@
 #ifndef STALIST_H
 #define STALIST_H
 #include "Node.h"
+#include<iostream>
 using namespace std;
 template <class ElemType> class Node;
 
@@ -30,7 +31,7 @@ public:
             sll[head].next=-1;
         }
     }
-    StaList(ElemType *v,const int &n,const int &size):head(-1),avail(0),maxLength(size),sll(NULL)
+    StaList(ElemType *v,const int &n,const int &size):head(-1),avail(0),maxLength(size),sll(NULL)//用数组来构造静态链表
     {
         if(n>size) return;
         if(v==NULL) return;
@@ -58,7 +59,7 @@ public:
         if(sll!=NULL) delete [] sll;
         head=-1;avail=0;maxLength=0;
     }
-    int GetLength() const//返回实际链表的长度
+    int GetLength() const//返回链表的实际长度
     {
         if(sll==NULL) return 0;
         int _count=0;
@@ -70,7 +71,7 @@ public:
         }
         return _count;
     }
-    int GetMaxLength() const
+    int GetMaxLength() const//返回链表允许的最大长度
     {
         return maxLength;
     }
@@ -78,7 +79,7 @@ public:
     {
         return GetMaxLength()-GetLength();
     }
-    bool IsEmpty() const
+    bool IsEmpty() const//判断链表是否为空
     {
         return GetLength()==0;
     }
@@ -94,7 +95,7 @@ public:
             sll[head].next=i;
         }
     }
-    int GetLastElem(const int &i) const//返回物理内存上下标为i的元素的前一个元素物理下标
+    int GetLastElem(const int &i) const//返回物理内存上下标为i的元素的前一个元素的物理下标
     {
         if(i==head) return -1;
         int p=head;
@@ -142,7 +143,7 @@ public:
             }
         }
     }
-    void Show() const
+    void Show() const//输出链表
     {
         if(sll!=NULL)
         {
