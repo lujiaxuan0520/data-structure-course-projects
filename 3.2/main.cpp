@@ -8,9 +8,18 @@ int main()
     SeqList<int> L(v,7,10);
     L.Insert(8);
     L.Show();
-    L.Delete(8);
+    //L.Delete(8);
     //L.Sort();
-    L.Show();
+    SeqList<int> c(5);
+    c.Insert(1);
+    c.Insert(2);
+    c.Insert(3);
+    c.Insert(4);
+    c.Show();
+    SeqList<int> b=L.Merge(c);
+    b.Show();
+    b.DeleteBetween(4,4);
+    b.Show();
 
 
     return 0;
