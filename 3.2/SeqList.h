@@ -25,6 +25,27 @@ public:
             elems[i]=v[i];
         }
     }
+    SeqList Merge(const SeqList<ElemType> &sb)
+    {
+        SeqList temp(0);
+        temp.maxlength=this->maxlength+sb.maxlength;
+        temp.elems=new ElemType[maxlength];
+        if(temp.elems!=NULL)
+        {
+            int i;
+            temp.length=this->length+sb.length;
+            for(i=0;i<this->length;i++)
+            {
+                temp.elems[i]=this->elems[i];
+            }
+            for(;i<temp.length;i++)
+            {
+                temp.elems[i]=sb.elems[i-this->length];
+            }
+            temp.Sort();
+        }
+        return temp;
+    }
     void Sort()
     {
         for(int i=0;i<length-1;i++)
@@ -68,47 +89,37 @@ public:
             }
         }
     }
-//    void DeleteRepetition()
-//    {
-//        for(int i=0;i<length;i++)
-//        {
-//            for(int j=i+1;j<length;j++)
-//            {
-//                if(elems[i]==elems[j])
-//                {
-//                    for(int k=j;k<length-1;k++)
-//                    {
-//                        elems[k]=elems[k+1];
-//                    }
-//                    length--;j--;
-//                }
-//            }
-//        }
-//    }
-//    ElemType DeleteMin()
-//    {
-//        ElemType min=elems[0];
-//        ElemType index=0;
-//        int i;
-//        for(i=0;i<length;i++)
-//        {
-//            if(elems[i]<min)
-//            {
-//                index=i;
-//                min=elems[i];
-//
-//            }
-//
-//        }
-//        elems[index]=elems[length-1];
-//        return min;
-//    }
+    void DeleteBetween(const ElemType &s,const ElemType &t)
+    {
+        if(length==0) return;
+        if(s>t)
+        {
+            cerr<<"Error!"<<endl;
+            return;
+        }
+        else
+        {
+            for(int i=0;i<length;i++)
+            {
+                if(elems[i]>s&&elems[i]<t)
+                {
+                    int j;
+                    for(j=i;j<length-1;j++)
+                    {
+                        elems[j]=elems[j+1];
+                    }
+                    i--;length--;j--;
+                }
+            }
+        }
+    }
     void Show()
     {
         for(int i=0;i<length;i++)
         {
             cout<<elems[i]<<" ";
         }
+        cout<<endl;
     }
     virtual ~SeqList()
     {

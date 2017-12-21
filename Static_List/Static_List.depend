@@ -1,12 +1,25 @@
 # depslib dependency file v1.0
-1513522892 source:d:\document and settings2\administrator\desktop\chapter3\static_list\main.cpp
+1513822067 source:d:\document and settings2\administrator\desktop\static_list\main.cpp
 	<iostream>
 	"Node.h"
 	"StaList.h"
 
-1513523140 d:\document and settings2\administrator\desktop\chapter3\static_list\node.h
+1513523437 d:\document and settings2\administrator\desktop\static_list\node.h
 	"StaList.h"
 
-1513523183 d:\document and settings2\administrator\desktop\chapter3\static_list\stalist.h
+1513821974 d:\document and settings2\administrator\desktop\static_list\stalist.h
 	"Node.h"
+	<iostream>
+
+1513822312 source:e:\ctemp\project\data_structure_course_projects\static_list\main.cpp
+	<iostream>
+	"Node.h"
+	"StaList.h"
+
+1513523437 e:\ctemp\project\data_structure_course_projects\static_list\node.h
+	"StaList.h"
+
+1513821974 e:\ctemp\project\data_structure_course_projects\static_list\stalist.h
+	"Node.h"
+	<iostream>
 
