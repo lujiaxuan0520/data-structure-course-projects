@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1514278432 source:e:\ctemp\project\data_structure_course_projects\3.7\main.cpp
+	<iostream>
+	"LinkList.h"
+	"Polynomial.h"
+
+1514003556 e:\ctemp\project\data_structure_course_projects\3.7\linklist.h
+	"Assistance.h"
+	"Node.h"
+
+1386423798 e:\ctemp\project\data_structure_course_projects\3.7\assistance.h
+	<cstring>
+	<iostream>
+	<limits>
+	<cmath>
+	<fstream>
+	<cctype>
+	<ctime>
+	<cstdlib>
+	<cstdio>
+	<iomanip>
+	<cstdarg>
+	<cassert>
+
+1514001721 e:\ctemp\project\data_structure_course_projects\3.7\node.h
+
+1514278512 e:\ctemp\project\data_structure_course_projects\3.7\polynomial.h
+	"Assistance.h"
+	"Node.h"
+
