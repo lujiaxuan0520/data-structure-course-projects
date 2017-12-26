@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1514085726 source:e:\ctemp\project\data_structure_course_projects\linkstack\main.cpp
+1514085964 source:e:\ctemp\project\data_structure_course_projects\linkstack\main.cpp
 	<iostream>
 	<cstdio>
 	<cmath>
@@ -9,14 +9,14 @@
 	"LinkStack.h"
 	"Assistance.h"
 
-1514035056 e:\ctemp\project\data_structure_course_projects\linkstack\node.h
+1514085964 e:\ctemp\project\data_structure_course_projects\linkstack\node.h
 	"LinkStack.h"
 
-1514083457 e:\ctemp\project\data_structure_course_projects\linkstack\linkstack.h
+1514085964 e:\ctemp\project\data_structure_course_projects\linkstack\linkstack.h
 	"Node.h"
 	"Assistance.h"
 
-1514084403 e:\ctemp\project\data_structure_course_projects\linkstack\assistance.h
+1514085964 e:\ctemp\project\data_structure_course_projects\linkstack\assistance.h
 	<cstring>
 	<iostream>
 	<limits>

@@ -1,16 +1,20 @@
-#ifndef LK_LIST_H__
-#define LK_LIST_H__
-#include "Node.h"
-#include "Assistance.h"
-using namespace std;
+#ifndef __LK_LIST_H__
+#define __LK_LIST_H__
+
+#include "Assistance.h"				// 辅助软件包
+#include "Node.h"					// 结点类
+
+// 单链表类
 template <class ElemType>
 class LinkList
 {
 protected:
-	Node<ElemType> *head;
-	int length;
+//  单链表的数据成员
+	Node<ElemType> *head;				// 头结点指针
+	int length;							// 单链表长度
 
 public:
+//  单链表的函数成员
 	LinkList();							// 无参数的构造函数
 	LinkList(ElemType v[], int n);		// 有参数的构造函数
 	virtual ~LinkList();				// 析构函数
@@ -21,45 +25,43 @@ public:
 	int LocateElem(const ElemType &e) const;	         // 元素定位
 	Status GetElem(int position, ElemType &e) const;	 // 求指定位置的元素
 	Status SetElem(int position, const ElemType &e);	 // 设置指定位置的元素值
-	Status DeleteElem(int position, ElemType &e);		 // 删除元素
-	Status InsertElem(int position, const ElemType &e);	 // 在制定位置插入元素
-	Status InsertElem(const ElemType &e);	             // 在表尾插入元素
+	void DeleteElem(const ElemType &e)	             // 删除元素
+	{
+	    Node<ElemType> *p=head,*q;
+	    while(p->next!=NULL&&p->next->data<e)
+        {
+            p=p->next;
+        }
+        while(p->next!=NULL&&p->next->data==e)
+        {
+            q=p->next;
+            p->next=q->next;
+            length--;
+            delete q;
+        }
+	}
+	void InsertElem(const ElemType &e)	                 // 插入元素
+	{
+	    Node<ElemType> *p=head,*q;
+	    while(p->next!=NULL&&p->next->data<e)
+        {
+            p=p->next;
+        }
+        q=new Node<ElemType>;
+        q->data=e;
+        q->next=p->next;
+        p->next=q;
+        length++;
+	}
+	Status InsertElemEnd(const ElemType &e);	       // 在表尾插入元素
 	LinkList(const LinkList<ElemType> &la);            // 复制构造函数
 	LinkList<ElemType> &operator =(const LinkList<ElemType> &la); // 重载赋值运算
-	void Show() const
-	{
-	    if(head==NULL) return;
-	    for(Node<ElemType> *p=head->next;p!=NULL;p=p->next)
-        {
-            cout<<p->data<<" ";
-        }
-	}
-	Node<ElemType> *LocateNode(int i) const
-	{
-	    if(i<1||i>length)
-        {
-            return NULL;
-        }
-        Node<ElemType> *p=head->next;
-        for(int j=1;j<i;j++)
-        {
-            p=p->next;
-        }
-        return p;
-	}
-	int CountNode(const ElemType &e)
-	{
-	    int _count=0;
-	    Node<ElemType> *p=head->next;
-	    while(p!=NULL)
-        {
-            if(p->data==e) _count++;
-            p=p->next;
-        }
-        return _count;
-	}
-
 };
+
+
+// 单链表类的实现部分
+
+
 template <class ElemType>
 LinkList<ElemType>::LinkList()
 // 操作结果：构造一个空链表
@@ -179,50 +181,7 @@ Status LinkList<ElemType>::SetElem(int i, const ElemType &e)
 }
 
 template <class ElemType>
-Status LinkList<ElemType>::DeleteElem(int i, ElemType &e)
-// 操作结果：删除单链表的第i个位置的元素, 并用e返回其值,
-//	i的取值范围为1≤i≤length,
-//	i合法时函数返回SUCCESS,否则函数返回RANGE_ERROR
-{
-	if (i < 1 || i > length)
-		return RANGE_ERROR;   // i范围错
- 	else	{
-		Node<ElemType> *p = head, *q;
-		int count;
-		for (count = 1; count < i; count++)
-		  p = p->next;	      // p指向第i-1个结点
-		q = p->next;	      // q指向第i个结点
-		p->next = q->next;	  // 删除结点
-		e = q->data;		  // 用e返回被删结点元素值
-		length--;			  // 删除成功后元素个数减1
-		delete q;			  // 释放被删结点
-		return SUCCESS;
-	}
-}
-
-template <class ElemType>
-Status LinkList<ElemType>::InsertElem(int i, const ElemType &e)
-// 操作结果：在单链表的第i个位置前插入元素e
-//	i的取值范围为1≤i≤length+1
-//	i合法时返回SUCCESS, 否则函数返回RANGE_ERROR
-{
-	if (i < 1 || i > length+1)
-		return RANGE_ERROR;
- 	else	{
-		Node<ElemType> *p = head, *q;
-		int count;
-		for (count = 1; count < i; count++)
-		  p = p->next;	                    // p指向第i-1个结点
-		q = new Node<ElemType>(e, p->next); // 生成新结点q
-        assert(q);                          // 申请结点失败，终止程序运行
-		p->next = q;				        // 将q插入到链表中
-		length++;							// 插入成功后，单链表长度加1
-		return SUCCESS;
-	}
-}
-
-template <class ElemType>
-Status LinkList<ElemType>::InsertElem(const ElemType &e)
+Status LinkList<ElemType>::InsertElemEnd(const ElemType &e)
 // 操作结果：在单链表的表尾位置插入元素e
 {
 	Node<ElemType> *p, *q;
@@ -265,4 +224,6 @@ LinkList<ElemType> &LinkList<ElemType>::operator =(const LinkList<ElemType> &la)
 	}
 	return *this;
 }
-#endif // LK_LIST_H__
+
+#endif
+

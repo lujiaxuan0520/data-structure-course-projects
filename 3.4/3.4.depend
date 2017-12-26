@@ -1,18 +1,18 @@
 # depslib dependency file v1.0
-1513676077 source:e:\ctemp\project\data_structure_course_projects\3.4\main.cpp
+1514213611 source:e:\ctemp\project\data_structure_course_projects\3.4\main.cpp
 	<iostream>
 	"LinkList.h"
 	"Assistance.h"
 	"Node.h"
 
-1513676184 e:\ctemp\project\data_structure_course_projects\3.4\linklist.h
+1514213709 e:\ctemp\project\data_structure_course_projects\3.4\linklist.h
 	"Node.h"
 	"Assistance.h"
 
-1513675150 e:\ctemp\project\data_structure_course_projects\3.4\node.h
+1514211882 e:\ctemp\project\data_structure_course_projects\3.4\node.h
 	"LinkList.h"
 
-1386423798 e:\ctemp\project\data_structure_course_projects\3.4\assistance.h
+1513822609 e:\ctemp\project\data_structure_course_projects\3.4\assistance.h
 	<cstring>
 	<iostream>
 	<limits>

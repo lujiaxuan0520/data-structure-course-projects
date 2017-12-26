@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1514258212 source:e:\ctemp\project\data_structure_course_projects\3.3_2\main.cpp
+	"SeqList.h"
+
+1514258479 e:\ctemp\project\data_structure_course_projects\3.3_2\seqlist.h
+	"Assistance.h"
+
+1513673640 e:\ctemp\project\data_structure_course_projects\3.3_2\assistance.h
+	<cstring>
+	<iostream>
+	<limits>
+	<cmath>
+	<fstream>
+	<cctype>
+	<ctime>
+	<cstdlib>
+	<cstdio>
+	<iomanip>
+	<cstdarg>
+	<cassert>
+

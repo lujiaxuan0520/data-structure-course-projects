@@ -6,8 +6,11 @@ using namespace std;
 
 int main()
 {
-    int a[5]={1,2,3,4,5};
-    LinkList<int> L(a,5);
-    L.Show();
+    int a[6]={0,1,2,3,4,5};
+    LinkList<int> L(a,6);
+    //Node<int> *temp=L.LocateNode(3);
+    //cout<<temp<<endl;
+    //temp->Show();
+    cout<<L.CountNode(2);
     return 0;
 }

@@ -1,16 +1,20 @@
-#ifndef LK_LIST_H__
-#define LK_LIST_H__
-#include "Node.h"
-#include "Assistance.h"
-using namespace std;
+#ifndef __LK_LIST_H__
+#define __LK_LIST_H__
+
+#include "Assistance.h"				// 辅助软件包
+#include "Node.h"					// 结点类
+
+// 单链表类
 template <class ElemType>
 class LinkList
 {
 protected:
-	Node<ElemType> *head;
-	int length;
+//  单链表的数据成员
+	Node<ElemType> *head;				// 头结点指针
+	int length;							// 单链表长度
 
 public:
+//  单链表的函数成员
 	LinkList();							// 无参数的构造函数
 	LinkList(ElemType v[], int n);		// 有参数的构造函数
 	virtual ~LinkList();				// 析构函数
@@ -26,40 +30,23 @@ public:
 	Status InsertElem(const ElemType &e);	             // 在表尾插入元素
 	LinkList(const LinkList<ElemType> &la);            // 复制构造函数
 	LinkList<ElemType> &operator =(const LinkList<ElemType> &la); // 重载赋值运算
-	void Show() const
-	{
-	    if(head==NULL) return;
-	    for(Node<ElemType> *p=head->next;p!=NULL;p=p->next)
+	void Reverse()
+    {
+        Node<ElemType> *p= head->next,*q;
+        head->next = NULL;
+        while(p!=NULL)
         {
-            cout<<p->data<<" ";
+            q=p->next;
+            p->next=head->next;
+            head->next=p;
+            p=q;
         }
 	}
-	Node<ElemType> *LocateNode(int i) const
-	{
-	    if(i<1||i>length)
-        {
-            return NULL;
-        }
-        Node<ElemType> *p=head->next;
-        for(int j=1;j<i;j++)
-        {
-            p=p->next;
-        }
-        return p;
-	}
-	int CountNode(const ElemType &e)
-	{
-	    int _count=0;
-	    Node<ElemType> *p=head->next;
-	    while(p!=NULL)
-        {
-            if(p->data==e) _count++;
-            p=p->next;
-        }
-        return _count;
-	}
-
 };
+
+
+// 单链表类的实现部分
+
 template <class ElemType>
 LinkList<ElemType>::LinkList()
 // 操作结果：构造一个空链表
@@ -265,4 +252,5 @@ LinkList<ElemType> &LinkList<ElemType>::operator =(const LinkList<ElemType> &la)
 	}
 	return *this;
 }
-#endif // LK_LIST_H__
+
+#endif
