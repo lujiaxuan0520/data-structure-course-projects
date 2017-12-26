@@ -1,5 +1,6 @@
 #ifndef SEQLIST_H
 #define SEQLIST_H
+#include <cstdlib>
 using namespace std;
 template <class ElemType>
 class SeqList
@@ -95,7 +96,7 @@ public:
         if(s>t)
         {
             cerr<<"Error!"<<endl;
-            return;
+            exit(-1);
         }
         else
         {

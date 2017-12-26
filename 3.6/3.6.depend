@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1514264556 source:e:\ctemp\project\data_structure_course_projects\3.6\testlinklist.cpp
+	"LinkList.h"
+
+1514264555 e:\ctemp\project\data_structure_course_projects\3.6\linklist.h
+	"Assistance.h"
+	"Node.h"
+
+1386423798 e:\ctemp\project\data_structure_course_projects\3.6\assistance.h
+	<cstring>
+	<iostream>
+	<limits>
+	<cmath>
+	<fstream>
+	<cctype>
+	<ctime>
+	<cstdlib>
+	<cstdio>
+	<iomanip>
+	<cstdarg>
+	<cassert>
+
+1357169112 e:\ctemp\project\data_structure_course_projects\3.6\node.h
+
