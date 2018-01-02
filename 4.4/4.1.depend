@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1514883812 source:e:\ctemp\project\data_structure_course_projects\4.1\main.cpp
+	<iostream>
+	"TwoSeqStack.h"
+
+1514884060 e:\ctemp\project\data_structure_course_projects\4.1\twoseqstack.h
+	"Assistance.h"
+
+1386423798 e:\ctemp\project\data_structure_course_projects\4.1\assistance.h
+	<cstring>
+	<iostream>
+	<limits>
+	<cmath>
+	<fstream>
+	<cctype>
+	<ctime>
+	<cstdlib>
+	<cstdio>
+	<iomanip>
+	<cstdarg>
+	<cassert>
+
