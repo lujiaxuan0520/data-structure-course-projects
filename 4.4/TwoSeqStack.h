@@ -27,7 +27,7 @@ public:
     }
     Status Push(const ElemType &e,int N)
     {
-        if(top1==top2-1)
+        if(top1+1==top2)
         {
             return OVER_FLOW;
         }
@@ -81,6 +81,22 @@ public:
             else
                 return false;
         }
+    }
+    void Traverse(void (*Visit)(const ElemType &),int N) const
+    {
+        if(N==1)
+        {
+            for (int i = top1; i >=0 ; i--)
+                (*Visit)(elems[i]);
+        }
+        else
+        {
+            for(int i=top2;i<maxSize;i++)
+            {
+                (*Visit)(elems[i]);
+            }
+        }
+
     }
 
 };
