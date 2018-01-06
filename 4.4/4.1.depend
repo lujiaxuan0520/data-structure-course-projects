@@ -20,3 +20,24 @@
 	<cstdarg>
 	<cassert>
 
+1514884206 source:e:\ctemp\project\data_structure_course_projects\4.4\main.cpp
+	<iostream>
+	"TwoSeqStack.h"
+
+1515236383 e:\ctemp\project\data_structure_course_projects\4.4\twoseqstack.h
+	"Assistance.h"
+
+1514884206 e:\ctemp\project\data_structure_course_projects\4.4\assistance.h
+	<cstring>
+	<iostream>
+	<limits>
+	<cmath>
+	<fstream>
+	<cctype>
+	<ctime>
+	<cstdlib>
+	<cstdio>
+	<iomanip>
+	<cstdarg>
+	<cassert>
+
