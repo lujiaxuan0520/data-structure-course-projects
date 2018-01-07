@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1515315611 source:e:\ctemp\project\data_structure_course_projects\4.7\testlinkqueue.cpp
+	"LinkQueue.h"
+
+1415150300 e:\ctemp\project\data_structure_course_projects\4.7\linkqueue.h
+	"Assistance.h"
+	"Node.h"
+
+1386423798 e:\ctemp\project\data_structure_course_projects\4.7\assistance.h
+	<cstring>
+	<iostream>
+	<limits>
+	<cmath>
+	<fstream>
+	<cctype>
+	<ctime>
+	<cstdlib>
+	<cstdio>
+	<iomanip>
+	<cstdarg>
+	<cassert>
+
+1203760222 e:\ctemp\project\data_structure_course_projects\4.7\node.h
+
