@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1415149094 source:e:\ctemp\project\data_structure_course_projects\4.6\testseqqueue.cpp
+	"SeqQueue.h"
+
+1515306627 e:\ctemp\project\data_structure_course_projects\4.6\seqqueue.h
+	"Assistance.h"
+
+1386423798 e:\ctemp\project\data_structure_course_projects\4.6\assistance.h
+	<cstring>
+	<iostream>
+	<limits>
+	<cmath>
+	<fstream>
+	<cctype>
+	<ctime>
+	<cstdlib>
+	<cstdio>
+	<iomanip>
+	<cstdarg>
+	<cassert>
+
