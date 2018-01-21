@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1516538892 source:d:\document and settings2\administrator\desktop\binary_tree\testbinarytree.cpp
+	"BinaryTree.h"
+
+1516538827 d:\document and settings2\administrator\desktop\binary_tree\binarytree.h
+	"LinkQueue.h"
+	"BinTreeNode.h"
+	"LinkStack.h"
+
+1415417702 d:\document and settings2\administrator\desktop\binary_tree\linkqueue.h
+	"Assistance.h"
+	"Node.h"
+
+1386423796 d:\document and settings2\administrator\desktop\binary_tree\assistance.h
+	<cstring>
+	<iostream>
+	<limits>
+	<cmath>
+	<fstream>
+	<cctype>
+	<ctime>
+	<cstdlib>
+	<cstdio>
+	<iomanip>
+	<cstdarg>
+	<cassert>
+
+1203760222 d:\document and settings2\administrator\desktop\binary_tree\node.h
+
+1382876364 d:\document and settings2\administrator\desktop\binary_tree\bintreenode.h
+
+1415149024 d:\document and settings2\administrator\desktop\binary_tree\linkstack.h
+	"Assistance.h"
+	"node.h"
+

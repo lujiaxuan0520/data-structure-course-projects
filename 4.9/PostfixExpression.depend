@@ -1,0 +1,121 @@
+# depslib dependency file v1.0
+1514093937 source:c:\users\lenovo\desktop\datastructurediscuss\postfixexpression\main.cpp
+	<iostream>
+	"LinkStack.h"
+	"funtion.h"
+
+1514030120 c:\users\lenovo\desktop\datastructurediscuss\postfixexpression\linkstack.h
+	<iostream>
+
+1514108910 c:\users\lenovo\desktop\datastructurediscuss\postfixexpression\funtion.h
+	"LinkStack.h"
+	<iostream>
+	<cstdlib>
+	"assistance.h"
+	<cstring>
+	<cstdio>
+
+1514093885 c:\users\lenovo\desktop\datastructurediscuss\postfixexpression\assistance.h
+	<cstring>
+	<iostream>
+	<limits>
+	<cmath>
+	<fstream>
+	<cctype>
+	<ctime>
+	<cstdlib>
+	<cstdio>
+	<iomanip>
+	<cstdarg>
+	<cassert>
+
+1515154624 source:c:\users\lenovo\desktop\datastructure\chapter4\test9\main.cpp
+	<iostream>
+	"LinkStack.h"
+	"funtion.h"
+
+1514030120 c:\users\lenovo\desktop\datastructure\chapter4\test9\linkstack.h
+	<iostream>
+
+1515214542 c:\users\lenovo\desktop\datastructure\chapter4\test9\funtion.h
+	"LinkStack.h"
+	<iostream>
+	<cstdlib>
+	"assistance.h"
+	<cstring>
+	<cstdio>
+
+1515214542 c:\users\lenovo\desktop\datastructure\chapter4\test9\assistance.h
+	<cstring>
+	<iostream>
+	<limits>
+	<cmath>
+	<fstream>
+	<cctype>
+	<ctime>
+	<cstdlib>
+	<cstdio>
+	<iomanip>
+	<cstdarg>
+	<cassert>
+
+1515154626 source:e:\ctemp\project\data_structure_course_projects\9\main.cpp
+	<iostream>
+	"LinkStack.h"
+	"funtion.h"
+
+1514030122 e:\ctemp\project\data_structure_course_projects\9\linkstack.h
+	<iostream>
+
+1515488105 e:\ctemp\project\data_structure_course_projects\9\funtion.h
+	"LinkStack.h"
+	<iostream>
+	<cstdlib>
+	"assistance.h"
+	<cstring>
+	<cstdio>
+
+1515487545 e:\ctemp\project\data_structure_course_projects\9\assistance.h
+	<cstring>
+	<iostream>
+	<limits>
+	<cmath>
+	<fstream>
+	<cctype>
+	<ctime>
+	<cstdlib>
+	<cstdio>
+	<iomanip>
+	<cstdarg>
+	<cassert>
+
+1515154626 source:e:\ctemp\project\data_structure_course_projects\4.9\main.cpp
+	<iostream>
+	"LinkStack.h"
+	"funtion.h"
+
+1514030122 e:\ctemp\project\data_structure_course_projects\4.9\linkstack.h
+	<iostream>
+
+1515488105 e:\ctemp\project\data_structure_course_projects\4.9\funtion.h
+	"LinkStack.h"
+	<iostream>
+	<cstdlib>
+	"assistance.h"
+	<cstring>
+	<cstdio>
+
+1515487545 e:\ctemp\project\data_structure_course_projects\4.9\assistance.h
+	<cstring>
+	<iostream>
+	<limits>
+	<cmath>
+	<fstream>
+	<cctype>
+	<ctime>
+	<cstdlib>
+	<cstdio>
+	<iomanip>
+	<cstdarg>
+	<cassert>
+
