@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1515317438 source:e:\ctemp\project\data_structure_course_projects\4.8\testlinkstack.cpp
+	"LinkStack.h"
+
+1515317438 e:\ctemp\project\data_structure_course_projects\4.8\linkstack.h
+	"Assistance.h"
+	"node.h"
+
+1515317438 e:\ctemp\project\data_structure_course_projects\4.8\assistance.h
+	<cstring>
+	<iostream>
+	<limits>
+	<cmath>
+	<fstream>
+	<cctype>
+	<ctime>
+	<cstdlib>
+	<cstdio>
+	<iomanip>
+	<cstdarg>
+	<cassert>
+
+1515317438 e:\ctemp\project\data_structure_course_projects\4.8\node.h
+
