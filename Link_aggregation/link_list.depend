@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1517285441 source:e:\ctemp\project\data_structure_course_projects\link_aggregation\main.cpp
+	<iostream>
+	<cstring>
+	"LinkList.h"
+
+1517285368 e:\ctemp\project\data_structure_course_projects\link_aggregation\linklist.h
+	"Assistance.h"
+	"Node.h"
+
+1386423798 e:\ctemp\project\data_structure_course_projects\link_aggregation\assistance.h
+	<cstring>
+	<iostream>
+	<limits>
+	<cmath>
+	<fstream>
+	<cctype>
+	<ctime>
+	<cstdlib>
+	<cstdio>
+	<iomanip>
+	<cstdarg>
+	<cassert>
+
+1357169112 e:\ctemp\project\data_structure_course_projects\link_aggregation\node.h
+
