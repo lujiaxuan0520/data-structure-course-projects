@@ -1,0 +1,85 @@
+# depslib dependency file v1.0
+1507519844 source:e:\ctemp\project\c++ practice\class_string\class_stringmain.cpp
+	<iostream>
+	<iomanip>
+	"Class_String.h"
+
+1507520152 e:\ctemp\project\c++ practice\class_string\class_string.h
+	<iostream>
+
+1507520152 source:e:\ctemp\project\c++ practice\class_string\class_string.cpp
+	"Class_String.h"
+	<cstdlib>
+
+1507474841 source:e:\ctemp\project\c++ practice\class_string new\class_string.cpp
+	"Class_String.h"
+	<cstdlib>
+
+1507474841 e:\ctemp\project\c++ practice\class_string new\class_string.h
+	<iostream>
+
+1507474841 source:e:\ctemp\project\c++ practice\class_string new\class_stringmain.cpp
+	<iostream>
+	<iomanip>
+	"Class_String.h"
+
+1507645508 source:e:\cpp workplace\class_string\class_string.cpp
+	"Class_String.h"
+	<cstdlib>
+
+1507645182 e:\cpp workplace\class_string\class_string.h
+	<iostream>
+
+1507645369 source:e:\cpp workplace\class_string\class_stringmain.cpp
+	<iostream>
+	<iomanip>
+	"Class_String.h"
+
+1507646918 source:e:\ctemp\project\class_string 1\class_string.cpp
+	"Class_String.h"
+	<cstdlib>
+
+1507646941 e:\ctemp\project\class_string 1\class_string.h
+	<iostream>
+
+1507647043 source:e:\ctemp\project\class_string 1\class_stringmain.cpp
+	<iostream>
+	<iomanip>
+	"Class_String.h"
+
+1515588457 source:c:\users\lenovo\desktop\datastructure\chapter5\test1\class_string.cpp
+	"Class_String.h"
+	<cstdlib>
+
+1515557096 c:\users\lenovo\desktop\datastructure\chapter5\test1\class_string.h
+	<iostream>
+
+1515588457 source:c:\users\lenovo\desktop\datastructure\chapter5\test1\class_stringmain.cpp
+	<iostream>
+	<iomanip>
+	"Class_String.h"
+
+1515588458 source:d:\document and settings2\administrator\desktop\test1\class_string.cpp
+	"Class_String.h"
+	<cstdlib>
+
+1515557098 d:\document and settings2\administrator\desktop\test1\class_string.h
+	<iostream>
+
+1515588458 source:d:\document and settings2\administrator\desktop\test1\class_stringmain.cpp
+	<iostream>
+	<iomanip>
+	"Class_String.h"
+
+1517299204 source:e:\ctemp\project\data_structure_course_projects\5.1\class_stringmain.cpp
+	<iostream>
+	<iomanip>
+	"Class_String.h"
+
+1515557098 e:\ctemp\project\data_structure_course_projects\5.1\class_string.h
+	<iostream>
+
+1517299475 source:e:\ctemp\project\data_structure_course_projects\5.1\class_string.cpp
+	"Class_String.h"
+	<cstdlib>
+

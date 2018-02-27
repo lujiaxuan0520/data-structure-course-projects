@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1517150361 source:e:\ctemp\project\data_structure_course_projects\5.6\testtrisparsematrix.cpp
+	"TriSparseMatrix.h"
+
+1517150991 e:\ctemp\project\data_structure_course_projects\5.6\trisparsematrix.h
+	"Assistance.h"
+	"triple.h"
+
+1386423798 e:\ctemp\project\data_structure_course_projects\5.6\assistance.h
+	<cstring>
+	<iostream>
+	<limits>
+	<cmath>
+	<fstream>
+	<cctype>
+	<ctime>
+	<cstdlib>
+	<cstdio>
+	<iomanip>
+	<cstdarg>
+	<cassert>
+
+1205798098 e:\ctemp\project\data_structure_course_projects\5.6\triple.h
+

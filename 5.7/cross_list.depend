@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1517145388 source:e:\ctemp\project\data_structure_course_projects\5.7\testcrosslist.cpp
+	"CrossList.h"
+
+1517144671 e:\ctemp\project\data_structure_course_projects\5.7\crosslist.h
+	"Assistance.h"
+	"crossnode.h"
+	"triple.h"
+
+1386423798 e:\ctemp\project\data_structure_course_projects\5.7\assistance.h
+	<cstring>
+	<iostream>
+	<limits>
+	<cmath>
+	<fstream>
+	<cctype>
+	<ctime>
+	<cstdlib>
+	<cstdio>
+	<iomanip>
+	<cstdarg>
+	<cassert>
+
+1356534978 e:\ctemp\project\data_structure_course_projects\5.7\crossnode.h
+	"triple.h"
+
+1318857960 e:\ctemp\project\data_structure_course_projects\5.7\triple.h
+

@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1415156010 source:d:\document and settings2\administrator\desktop\chapter5\string\teststring.cpp
+	"String.h"
+
+1516696191 d:\document and settings2\administrator\desktop\chapter5\string\string.h
+	"LinkList.h"
+
+1415148566 d:\document and settings2\administrator\desktop\chapter5\string\linklist.h
+	"Assistance.h"
+	"Node.h"
+
+1386423798 d:\document and settings2\administrator\desktop\chapter5\string\assistance.h
+	<cstring>
+	<iostream>
+	<limits>
+	<cmath>
+	<fstream>
+	<cctype>
+	<ctime>
+	<cstdlib>
+	<cstdio>
+	<iomanip>
+	<cstdarg>
+	<cassert>
+
+1357169112 d:\document and settings2\administrator\desktop\chapter5\string\node.h
+
+1516976739 source:e:\ctemp\project\data_structure_course_projects\5.3\teststring.cpp
+	"String.h"
+
+1516696191 e:\ctemp\project\data_structure_course_projects\5.3\string.h
+	"LinkList.h"
+
+1415148566 e:\ctemp\project\data_structure_course_projects\5.3\linklist.h
+	"Assistance.h"
+	"Node.h"
+
+1386423798 e:\ctemp\project\data_structure_course_projects\5.3\assistance.h
+	<cstring>
+	<iostream>
+	<limits>
+	<cmath>
+	<fstream>
+	<cctype>
+	<ctime>
+	<cstdlib>
+	<cstdio>
+	<iomanip>
+	<cstdarg>
+	<cassert>
+
+1357169112 e:\ctemp\project\data_structure_course_projects\5.3\node.h
+

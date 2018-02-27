@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1516978487 source:e:\ctemp\project\data_structure_course_projects\5.10\testgenlist.cpp
+	"GenList.h"
+
+1516978613 e:\ctemp\project\data_structure_course_projects\5.10\genlist.h
+	"Assistance.h"
+	"GenNode.h"
+
+1386423798 e:\ctemp\project\data_structure_course_projects\5.10\assistance.h
+	<cstring>
+	<iostream>
+	<limits>
+	<cmath>
+	<fstream>
+	<cctype>
+	<ctime>
+	<cstdlib>
+	<cstdio>
+	<iomanip>
+	<cstdarg>
+	<cassert>
+
+1356872626 e:\ctemp\project\data_structure_course_projects\5.10\gennode.h
+
