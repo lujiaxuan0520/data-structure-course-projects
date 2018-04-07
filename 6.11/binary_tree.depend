@@ -1,17 +1,17 @@
 # depslib dependency file v1.0
-1519887854 source:e:\ctemp\project\data_structure_course_projects\6.11\testbinarytree.cpp
+1519888885 source:e:\ctemp\project\data_structure_course_projects\6.11\testbinarytree.cpp
 	"BinaryTree.h"
 
-1519887963 e:\ctemp\project\data_structure_course_projects\6.11\binarytree.h
+1519888885 e:\ctemp\project\data_structure_course_projects\6.11\binarytree.h
 	"LinkQueue.h"
 	"LinkStack.h"
 	"BinTreeNode.h"
 
-1415417702 e:\ctemp\project\data_structure_course_projects\6.11\linkqueue.h
+1519888885 e:\ctemp\project\data_structure_course_projects\6.11\linkqueue.h
 	"Assistance.h"
 	"Node.h"
 
-1386423796 e:\ctemp\project\data_structure_course_projects\6.11\assistance.h
+1519888885 e:\ctemp\project\data_structure_course_projects\6.11\assistance.h
 	<cstring>
 	<iostream>
 	<limits>
@@ -25,13 +25,13 @@
 	<cstdarg>
 	<cassert>
 
-1203760222 e:\ctemp\project\data_structure_course_projects\6.11\node.h
+1519888885 e:\ctemp\project\data_structure_course_projects\6.11\node.h
 
-1382876364 e:\ctemp\project\data_structure_course_projects\6.11\bintreenode.h
+1519888885 e:\ctemp\project\data_structure_course_projects\6.11\bintreenode.h
 
-1519887420 e:\ctemp\project\data_structure_course_projects\6.11\linkstack.h
+1519888885 e:\ctemp\project\data_structure_course_projects\6.11\linkstack.h
 	"Assistance.h"
 	"Node2.h"
 
-1203760222 e:\ctemp\project\data_structure_course_projects\6.11\node2.h
+1519888885 e:\ctemp\project\data_structure_course_projects\6.11\node2.h
 

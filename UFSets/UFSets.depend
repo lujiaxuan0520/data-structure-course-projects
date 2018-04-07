@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1388823540 source:d:\document and settings2\administrator\desktop\chapter6\ufsets\testufsets.cpp
+	"Assistance.h"
+	"UFSets.h"
+
+1386423796 d:\document and settings2\administrator\desktop\chapter6\ufsets\assistance.h
+	<cstring>
+	<iostream>
+	<limits>
+	<cmath>
+	<fstream>
+	<cctype>
+	<ctime>
+	<cstdlib>
+	<cstdio>
+	<iomanip>
+	<cstdarg>
+	<cassert>
+
+1388825843 d:\document and settings2\administrator\desktop\chapter6\ufsets\ufsets.h
+

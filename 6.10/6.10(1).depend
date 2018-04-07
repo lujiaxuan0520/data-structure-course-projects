@@ -1,0 +1,59 @@
+# depslib dependency file v1.0
+1522998904 source:e:\ctemp\project\data_structure_course_projects\6.10(1)\main.cpp
+	"Assistance.h"
+	"ChildSiblingTree.h"
+
+1386423796 e:\ctemp\project\data_structure_course_projects\6.10(1)\assistance.h
+	<cstring>
+	<iostream>
+	<limits>
+	<cmath>
+	<fstream>
+	<cctype>
+	<ctime>
+	<cstdlib>
+	<cstdio>
+	<iomanip>
+	<cstdarg>
+	<cassert>
+
+1522999924 e:\ctemp\project\data_structure_course_projects\6.10(1)\childsiblingtree.h
+	"ChildSiblingTreeNode.h"
+	"LinkQueue.h"
+
+1522995917 e:\ctemp\project\data_structure_course_projects\6.10(1)\childsiblingtreenode.h
+
+1382715296 e:\ctemp\project\data_structure_course_projects\6.10(1)\linkqueue.h
+	"Node.h"
+
+1203760222 e:\ctemp\project\data_structure_course_projects\6.10(1)\node.h
+
+1522999968 source:e:\ctemp\project\data_structure_course_projects\6.10\main.cpp
+	"Assistance.h"
+	"ChildSiblingTree.h"
+
+1386423796 e:\ctemp\project\data_structure_course_projects\6.10\assistance.h
+	<cstring>
+	<iostream>
+	<limits>
+	<cmath>
+	<fstream>
+	<cctype>
+	<ctime>
+	<cstdlib>
+	<cstdio>
+	<iomanip>
+	<cstdarg>
+	<cassert>
+
+1522999924 e:\ctemp\project\data_structure_course_projects\6.10\childsiblingtree.h
+	"ChildSiblingTreeNode.h"
+	"LinkQueue.h"
+
+1522995917 e:\ctemp\project\data_structure_course_projects\6.10\childsiblingtreenode.h
+
+1382715296 e:\ctemp\project\data_structure_course_projects\6.10\linkqueue.h
+	"Node.h"
+
+1203760222 e:\ctemp\project\data_structure_course_projects\6.10\node.h
+

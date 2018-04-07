@@ -1,13 +1,13 @@
 # depslib dependency file v1.0
-1519735663 source:e:\ctemp\project\data_structure_course_projects\6.7\testsqbinarytree.cpp
+1519741947 source:e:\ctemp\project\data_structure_course_projects\6.7\testsqbinarytree.cpp
 	"SqBinaryTree.h"
 
-1519735884 e:\ctemp\project\data_structure_course_projects\6.7\sqbinarytree.h
+1519741947 e:\ctemp\project\data_structure_course_projects\6.7\sqbinarytree.h
 	"Assistance.h"
 	"LinkQueue.h"
 	<cmath>
 
-1386423796 e:\ctemp\project\data_structure_course_projects\6.7\assistance.h
+1519741947 e:\ctemp\project\data_structure_course_projects\6.7\assistance.h
 	<cstring>
 	<iostream>
 	<limits>
@@ -21,8 +21,8 @@
 	<cstdarg>
 	<cassert>
 
-1377162048 e:\ctemp\project\data_structure_course_projects\6.7\linkqueue.h
+1519741947 e:\ctemp\project\data_structure_course_projects\6.7\linkqueue.h
 	"Node.h"
 
-1203760222 e:\ctemp\project\data_structure_course_projects\6.7\node.h
+1519741949 e:\ctemp\project\data_structure_course_projects\6.7\node.h
 
